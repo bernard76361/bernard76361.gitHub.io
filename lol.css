@@ -3,18 +3,18 @@
 p{ 
 text-align: center; 
 text-indent: 40px; 
-font-family: Serif; 
+font-family: Arial; 
 font-size: 20; 
 }
 BODY,TD,html
-{font-size:13pt; font-family:Serif;background: url(imagebg.jpg);
+{font-size:13pt; font-family:Arial;background: url(imagebg.jpg);
 margin:0;
 padding:0;}
 #i1
 {
 text-align: center; 
 text-indent: 40px; 
-font-family: Serif; 
+font-family: Arial; 
 font-size: 25px;
 background: url(imagebg.png);
  display: block;
