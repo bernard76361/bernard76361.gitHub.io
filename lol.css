@@ -1,0 +1,38 @@
+
+
+p{ 
+text-align: center; 
+text-indent: 40px; 
+font-family: Serif; 
+font-size: 20; 
+}
+BODY,TD,html
+{font-size:13pt; font-family:Serif;background: url(imagebg.jpg);
+margin:0;
+padding:0;}
+#i1
+{
+text-align: center; 
+text-indent: 40px; 
+font-family: Serif; 
+font-size: 25px;
+background: url(imagebg.png);
+ display: block;
+  border: 1px solid blue;
+	
+}
+#copyright {
+overflow:hidden;
+}
+.colortext
+{
+	color:blue;
+}
+.colortext1
+{
+	color:black;
+}
+.clickmec
+{
+width:300px; border:1px solid gray; padding:3px; cursor:pointer;color:blue
+}

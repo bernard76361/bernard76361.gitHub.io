@@ -1,0 +1,245 @@
+<html>
+<head>
+<title>"NoMoney"</title>
+</head>
+<body >
+<script type="text/javascript"src="jquery.js"></script>
+<link rel="stylesheet" href="lol.css" type="text/css">
+
+<div id="i1" align = center>
+</br>
+  </br>  
+ Интернет Магазин <span class="clickmec"><a href="sim.html">NoMoney</a></span> 
+ </br>
+  </br>
+   </br> 
+   </br>
+   
+	 
+</div>
+<script>
+ $("#i1").animate({height: "hide"}, 300);
+$("#i1").animate({height: "show"}, 1000);
+$("#t1").slideUp("slow");
+  
+</script>
+  <p align = CENTER> Этапы работы: </p>
+    	<TABLE border=0 ALIGN=CENTER class="colortext">
+	<TR>
+  <TD >
+  <div class="clickmec" id="clickme"><li>Проверка товара</li></div>
+  <img id="image1" src="lol.jpg" width=307 height=200>
+  <div id="result1"></div>
+  <script>
+$('#clickme').click(function(){
+  $('#image1').hide('slow', function() {
+$('#result1').html("<span class=colortext1>Наши сотрудники проводят<br> тщательную проверку товара <br> на предмет изьянов и деффектов,<br>только после этого товар<br>добавляется в перечень реализуемой <br>продукции после чего вы можете. <br>его приобрести.<br><br><br><br> </span>");
+;
+  });
+});
+</script>
+
+   </TD>
+  
+
+   <TD >
+  <div class="clickmec"  id="clickme2"><li>Оформление заказа</li></div>
+  <img id="image2" src="lol1.jpg" width=307 height=200>
+  <div id="result2"></div>
+  <script>
+$('#clickme2').click(function(){
+  $('#image2').hide('slow', function() {
+$('#result2').html("<span class=colortext1>Заказ офрмляется в считанные<br> клики, от вас требуется <br> выбрать тип и количество товара,<br>а также необходимо указать <br>контактный номер и адрресс <br>его приобрести.<br> В течении часа с вами свяжуться.<br><br><br><br></span>");
+;
+  });
+});
+</script>
+   </TD>
+   <TD >
+ <div class="clickmec"  id="clickme3"><li>Доставка</li></div>
+  <img id="image3" src="lol2.bmp" width=307 height=200>
+  <div id="result3"></div>
+  <script>
+$('#clickme3').click(function(){
+  $('#image3').hide('slow', function() {
+$('#result3').html("<span class=colortext1>После оформления заказа<br> наш оператор свяжеться с <br> для уточнение информации,<br>согласовании времени<br>доставка по городу до 1 часа. <br> <br><br><br><br><br> </span>");
+;
+  });
+});
+</script>
+</TD>
+    <TD >
+  <div class="clickmec"  id="clickme4"><li>Оплата</li></div>
+  <img id="image4" src="lol3.jpg" width=307 height=200>
+  <div id="result4"></div>
+  <script>
+$('#clickme4').click(function(){
+  $('#image4').hide('slow', function() {
+$('#result4').html("<span class=colortext1>Оплата производиться на месте,<br> при получении товара. <br><br><br><br><br><br><br><br><br> </span>");
+;
+  });
+});
+</script>
+   </TD>
+   </tr>
+
+ 
+ </TR>
+ </TABLE>
+</br>
+<div id="spisokt" align=center>
+<input type="button"  value="Развернуть список товаров:" />
+</div>
+<script>
+
+$(document).ready(function(){
+   $("#spisokt").click(function(event)
+   { 
+   $("#spisokt").slideUp("slow");
+   $("#ST").slideDown("slow");
+   $("#SV").show(300);
+  <!--  document.getElementById('t1').style.display = 'inline'; -->
+    
+   });});
+</script>  
+<div id =ST align=center>
+<TABLE id=t1 BORDER = 0.5  margin-top=10 >
+
+ <TR class = colortext>
+  <TD>Наименование</TD>
+  <TD>Цена(УЕ)</TD>
+  <TD>Описание</TD>
+  <TD>Наличие на складе </TD>
+  <TD>Вес</TD>
+  <TD>ID</TD>
+   <TD>Производитель</TD>
+    <TD>Страна</TD>
+ </TR>
+ <TR>
+  <TD>Товар1</TD>
+  <TD>???</TD>
+  <TD>???</TD>
+  <TD>???</TD>
+  <TD>???</TD>
+   <TD>???</TD>
+   <TD>???</TD>
+   <TD>???</TD>
+
+ </TR>
+ <TR >
+  <TD>Товар2</TD>
+  <TD >???</TD>
+  <TD>???</TD>
+  <TD>???</TD>
+  <TD>???</TD>
+   <TD>???</TD>
+    <TD>???</TD>
+	 <TD>???</TD>
+   </TR>
+   <TR >
+  <TD>Товар3</TD>
+  <TD >???</TD>
+  <TD>???</TD>
+  <TD>???</TD>
+  <TD>???</TD>
+   <TD>???</TD>
+    <TD>???</TD>
+	 <TD>???</TD>
+   </TR>
+   <TR >
+  <TD>Товар4</TD>
+  <TD >???</TD>
+  <TD>???</TD>
+  <TD>???</TD>
+  <TD>???</TD>
+   <TD>???</TD>
+    <TD>???</TD>
+	 <TD>???</TD>
+   </TR>
+   <TR >
+  <TD>Товар5</TD>
+  <TD >???</TD>
+  <TD>???</TD>
+  <TD>???</TD>
+  <TD>???</TD>
+   <TD>???</TD>
+    <TD>???</TD>
+	 <TD>???</TD>
+   </TR>
+   <TR >
+  <TD>Товар6</TD>
+  <TD >???</TD>
+  <TD>???</TD>
+  <TD>???</TD>
+  <TD>???</TD>
+   <TD>???</TD>
+    <TD>???</TD>
+	 <TD>???</TD>
+   </TR>
+   <TR >
+  <TD>Товар7</TD>
+  <TD >???</TD>
+  <TD>???</TD>
+  <TD>???</TD>
+  <TD>???</TD>
+  <TD>???</TD>
+   <TD>???</TD>
+    <TD>???</TD>
+   </TR>
+     <TR >
+  <TD>Товар8</TD>
+  <TD >???</TD>
+  <TD>???</TD>
+  <TD>???</TD>
+  <TD>???</TD>
+  <TD>???</TD>
+   <TD>???</TD>
+    <TD>???</TD>
+   </TR>
+     <TR >
+  <TD>Товар9</TD>
+  <TD >???</TD>
+  <TD>???</TD>
+  <TD>???</TD>
+  <TD>???</TD>
+  <TD>???</TD>
+   <TD>???</TD>
+    <TD>???</TD>
+   </TR>
+     <TR >
+  <TD>Товар10</TD>
+  <TD >???</TD>
+  <TD>???</TD>
+  <TD>???</TD>
+  <TD>???</TD>
+  <TD>???</TD>
+   <TD>???</TD>
+    <TD>???</TD>
+   </TR>
+</TABLE>
+</div>
+<script>
+$("#ST").slideUp("slow"); 
+</script>
+<div id="SV" align=center>
+</br>
+<input type="button" value="Свернуть список товаров."/>
+</div>
+<script>
+$("#SV").hide()
+$(document).ready(function(){
+   $("#SV").click(function(event)
+   { 
+   $("#spisokt").slideDown("slow");
+   $("#ST").slideUp("slow");
+   $("#SV").hide();
+     
+   });});
+</script> 
+</br>
+
+<div align="center" id="copyright">
+<hr>
+Copyright ,<span class = "colortext">Simachenko A.</span> Simachenko A. © 2018. All rights reserved</div>
+</body>
+</html>
